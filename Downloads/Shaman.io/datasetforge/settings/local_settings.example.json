@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to local_settings.json and edit. Or use in-app Settings (gear icon).",
+  "ollama_host": "http://localhost:11434",
+  "model_name": "llama3.2:3b",
+  "triples_per_chunk": 10,
+  "min_chunk_length": 150,
+  "cross_reference_enabled": true,
+  "analysis_max_chars": 8000,
+  "ollama_num_ctx": 3072
+}

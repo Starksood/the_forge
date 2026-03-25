@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sessions (user data — never commit)
+sessions/
+*.db
+*.db-wal
+*.db-shm
+
+# Settings (may contain local paths/keys)
+settings/local_settings.json
+
+# Hypothesis test database
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
